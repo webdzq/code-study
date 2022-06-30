@@ -1,0 +1,23 @@
+/mweb/
+/dist/
+/node_modules
+npm-debug.log
+.DS_Store  
+.DS_Store?
+*.DS_Store
+.vscode
+*.log
+/src/assets/mock/*
+# Editor directories and files
+.idea
+/util/dist/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+static/**/theme-config.json
+static/theme/**/*.css
+static/**/*.???????.*
+
+static/**/__**

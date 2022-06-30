@@ -1,0 +1,8 @@
+/build/
+/config/
+/node_modules/8ik,*IK<
+/src/**/*1.vue
+/src/**/*副本.vue
+/src/views/writer.vue
+#/src/views/writerQuiz.vue
+/src/utils/reveal/

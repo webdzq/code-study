@@ -1,0 +1,8 @@
+
+[defaults]
+project=mweb
+org=gaotu-web
+url=https://sentry.baijiahulian.com
+
+[auth]
+token=0ff286bcdf6942f7a27146d7725f3838444ad9024c794a858363b7623cb92f15

@@ -1,0 +1,256 @@
+html {
+  color: #020822;
+  background: #fff;
+  line-height: 1;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  caret-color: #FF1E45;
+}
+
+@supports (-webkit-mask: none) and (not (caret-color: #FF1E45)) {
+  input { color: #ff1e45; }
+  input::first-line { color: #333; }
+}
+
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 500;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-touch-callout: none;
+  /*系统默认菜单被禁用*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  -moz-user-select: none;
+  /*火狐*/
+  -ms-user-select: none;
+  /*IE10*/
+  user-select: none;
+}
+
+input {
+  -webkit-user-select: auto;
+}
+
+img[lazy=loaded],
+div[lazy=loaded] {
+  -webkit-animation: opacity01 .3s;
+  animation: opacity01 .3s
+}
+
+@-webkit-keyframes opacity01 {
+  0% {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes opacity01 {
+  0% {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+.safe-area-inset {
+  /* 兼容iphoneX safari, constant()（IOS 11.0-11.2）或 env()（>IOS 11.2) 需要meta指定viewport-fit=cover */
+  /*为底下圆弧的高度 34px **/
+  padding-bottom: constant(safe-area-inset-bottom); 
+  /*为底下圆弧的高度 34px**/
+  padding-bottom: env(safe-area-inset-bottom); 
+  background: #fff;
+}
+@supports (bottom: constant(safe-area-inset-top)) or (bottom: env(safe-area-inset-top)) {
+  body {
+      padding-top: constant(safe-area-inset-top);
+      padding-top: env(safe-area-inset-top);
+      padding-left: constant(safe-area-inset-left);
+      padding-left: env(safe-area-inset-left);
+      padding-right: constant(safe-area-inset-right);
+      padding-right: env(safe-area-inset-right); /* 如果未竖屏时为0**/
+      padding-bottom: constant(safe-area-inset-bottom); /* 为底下圆弧的高度 34px**/
+      padding-bottom: env(safe-area-inset-bottom); /* 为底下圆弧的高度 34px**/
+  }
+}
+
+@font-face {
+  font-family: NotoSansHans-Black;
+  src: url('./fonts/NotoSansHans-Black.otf');
+}
+
+[v-cloak] {
+  display: none;
+}
+.h-auto{
+  height: 100vh;
+}
+.body-bg{
+  height: 100vh;
+  background: #F5F5F5;
+}
+
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}

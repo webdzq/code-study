@@ -1,0 +1,50 @@
+.battle-container.__battle_theme {
+    background-color: rgba(0, 0, 0, .7);
+}
+.battle.__battle_theme {
+    .header {
+        background-image: url('../imgs/header-begin.png');
+        &.finish {
+            background-image: url('../imgs/header-end.png')
+        }
+    }
+    .main {
+        .vs {
+            background-image: url('../imgs/vs.png')
+        }
+        .battle-panel {
+            .avatar-wrapper {
+                // 默认头像
+                .default-avatar {
+                    background-image: url('../imgs/avatar.png')
+                }
+                // 平局
+                .equal {
+                    background-image: url('../imgs/equal-level.png')
+                }
+                &.own .avatar {
+                    border: 6px solid #508DFF;
+                }
+                &.other .avatar {
+                    border: 6px solid #FF4A88;
+                }
+            }
+            // 下面辅导老师姓名的旗子
+            .flag {
+                margin-top: 0;
+                color:rgba(255,255,255,1);
+            }
+            // 学币牌子
+            .brand {
+                .coin-wrapper{
+                    .coin-icon {
+                        background-image: url('../../../../assets/imgs/coin.svg')
+                    }
+                    .coin-number {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

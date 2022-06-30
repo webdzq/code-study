@@ -1,0 +1,56 @@
+.battle-container.__battle_theme {
+    background-image: url('../imgs/background.jpg');
+    background-color: #d3f9fc;
+}
+.battle.__battle_theme {
+    .header {
+        background-image: url('../imgs/header-begin.png');
+        &.finish {
+            background-image: url('../imgs/header-end.png')
+        }
+    }
+    .main {
+        .vs {
+            background-image: url('../imgs/vs.png')
+        }
+        .battle-panel {
+            .avatar-wrapper {
+                background-image: url('../imgs/avatar-background.png');
+                // 默认头像
+                .default-avatar {
+                    background-image: url('../imgs/avatar.png')
+                }
+                // 平局
+                .equal {
+                    background-image: url('../imgs/equal-level.png')
+                }
+                // 装饰彩带
+                .decorate {
+                    background-image: url('../imgs/decorate.png');
+                }
+            }
+            // 下面辅导老师姓名的旗子
+            .flag {
+                color:rgba(255,255,255,1);
+                &.own {
+                    background-image: url('../imgs/own-flag.png')
+                }
+                &.other {
+                    background-image: url('../imgs/other-flag.png')
+                }
+            }
+            // 学币牌子
+            .brand {
+                background-image: url('../imgs/brand.png');
+                .coin-wrapper{
+                    .coin-icon {
+                        background-image: url('../../../../assets/imgs/coin.svg')
+                    }
+                    .coin-number {
+                        color:rgba(81,89,117,1);
+                    }
+                }
+            }
+        }
+    }
+}

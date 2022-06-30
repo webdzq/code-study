@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="84px" viewBox="0 0 134 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>小板子</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,12 L118,12 C126.836556,12 134,19.163444 134,28 L134,66 C134,74.836556 126.836556,82 118,82 L16,82 C7.163444,82 1.082166e-15,74.836556 0,66 L0,28 C-1.082166e-15,19.163444 7.163444,12 16,12 Z" id="path-1"></path>
+        <filter x="-0.7%" y="-1.4%" width="101.5%" height="105.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.973646966   0 0 0 0 0.865860276   0 0 0 0 0.542500208  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="2.16691301%" x2="50%" y2="98.1023015%" id="linearGradient-3">
+            <stop stop-color="#C0E669" offset="0%"></stop>
+            <stop stop-color="#A4DE57" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2-状态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-2状态-老师已离开教室" transform="translate(-973.000000, -240.000000)">
+            <g id="聊天区/PK比分" transform="translate(960.000000, 240.000000)">
+                <g id="聊天区/PK结果">
+                    <g id="个人" transform="translate(13.000000, 0.000000)">
+                        <g id="小板子">
+                            <g id="矩形">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFEDB7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M16,12 L118,12 C126.836556,12 134,19.163444 134,28 L134,40 L134,40 L0,40 L0,28 C-1.082166e-15,19.163444 7.163444,12 16,12 Z" id="矩形" fill="#FFD466"></path>
+                            <g id="挂绳" transform="translate(18.000000, 0.000000)">
+                                <circle id="椭圆形备份" stroke="#F7C74B" stroke-width="2" fill="#E0AD29" cx="3" cy="28" r="4"></circle>
+                                <path d="M3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,28 C5,29.1045695 4.1045695,30 3,30 C1.8954305,30 1,29.1045695 1,28 L1,2 C1,0.8954305 1.8954305,2.02906125e-16 3,0 Z" id="矩形备份" fill="url(#linearGradient-3)"></path>
+                            </g>
+                            <g id="挂绳" transform="translate(111.000000, 0.000000)">
+                                <circle id="椭圆形备份" stroke="#F7C74B" stroke-width="2" fill="#E0AD29" cx="3" cy="28" r="4"></circle>
+                                <path d="M3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,28 C5,29.1045695 4.1045695,30 3,30 C1.8954305,30 1,29.1045695 1,28 L1,2 C1,0.8954305 1.8954305,2.02906125e-16 3,0 Z" id="矩形备份" fill="url(#linearGradient-3)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

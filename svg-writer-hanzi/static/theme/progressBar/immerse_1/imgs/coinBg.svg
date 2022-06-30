@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="24px" viewBox="0 0 68 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>金币数量BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,4 L74,4 C77.3137085,4 80,6.6862915 80,10 L80,22 C80,25.3137085 77.3137085,28 74,28 L18,28 C14.6862915,28 12,25.3137085 12,22 L12,10 C12,6.6862915 14.6862915,4 18,4 Z" id="path-1"></path>
+        <filter x="-1.5%" y="-4.2%" width="102.9%" height="108.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.792345655   0 0 0 0 0.244893293  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2-状态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-1状态-老师还没来" transform="translate(-1090.000000, -260.000000)">
+            <g id="聊天区/PK比分/上课前" transform="translate(960.000000, 240.000000)">
+                <g id="信息" transform="translate(15.000000, 16.000000)">
+                    <g id="学币" transform="translate(103.000000, 0.000000)">
+                        <g id="金币数量BG">
+                            <use fill="#FFDA77" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

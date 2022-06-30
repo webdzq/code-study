@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" width="308px" height="50px" viewBox="0 0 308 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>我的排名</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.78156672%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#90E0FF" offset="0%"></stop>
+            <stop stop-color="#78DAFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-9.09494702e-13,-0.000197202176 C22.5118886,2.1687551 37.5034675,3.25323125 44.9747368,3.25323125 C56.1816406,3.25323125 76.6775608,0.0155652945 89.9494735,-0.000197202176 C103.221386,-0.0153166173 125.611201,3.25323125 134.92421,3.25323125 C144.23722,3.25323125 164.763859,-0.0108445495 179.898947,-0.000197202176 C195.034035,0.0110916514 206.400945,3.25323125 224.873684,3.25323125 C242.397461,3.25323125 252.521739,-0.0141918581 269.848421,-0.000197202176 C281.518427,0.00965846336 294.23562,1.09413461 308,3.25323125 L308,49.9998028 L-9.09494702e-13,49.9998028 L-9.09494702e-13,-0.000197202176 Z" id="path-2"></path>
+    </defs>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="排行榜/列表/我未上榜/个人">
+            <g id="我">
+                <g id="BG">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>关闭@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="960" y="0" width="320" height="720"></rect>
+        <filter x="-8.0%" y="-3.4%" width="115.3%" height="106.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0592730978 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="3-排行榜" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-1排行榜-个人排行-上榜" transform="translate(-1252.000000, -14.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1280" height="720"></rect>
+            <rect id="背景色" fill="#F8F8F8" x="966" y="0" width="308" height="720"></rect>
+            <g id="边框" fill-rule="nonzero" transform="translate(1120.000000, 360.000000) scale(-1, 1) translate(-1120.000000, -360.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <g id="tab" transform="translate(960.000000, 0.000000)">
+                <rect id="顶部切换BG" fill="#FFFFFF" x="0" y="0" width="320" height="70"></rect>
+                <g id="排行榜/icon/关闭" transform="translate(292.000000, 14.000000)" fill="#B2B2B2">
+                    <g id="编组">
+                        <polygon id="关闭" points="14 1.4 12.6 0 7 5.6 1.4 0 0 1.4 5.6 7 0 12.6 1.4 14 7 8.4 12.6 14 14 12.6 8.4 7"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

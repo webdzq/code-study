@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" width="308px" height="50px" viewBox="0 0 308 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>我未上榜BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9CDA6F" offset="0%"></stop>
+            <stop stop-color="#7ACA56" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="3-排行榜" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-4排行榜-班级排行-未上榜" transform="translate(-966.000000, -664.000000)" fill="url(#linearGradient-1)">
+            <g id="排行榜/大组件/我未上榜" transform="translate(966.000000, 664.000000)">
+                <path d="M0,7.68604961 C81.9838542,-0.366919225 184.650521,-2.09183493 308,2.51130249 C307.852537,19.5799121 307.852537,35.409478 308,50 L0,50 L0,7.68604961 Z" id="我未上榜BG"></path>
+            </g>
+        </g>
+    </g>
+</svg>
