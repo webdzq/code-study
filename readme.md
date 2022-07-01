@@ -6,4 +6,4 @@
 
 ## 源码学习
 
-- `coding`项目里有`axios`，`promise`，设计模式，`vue`、`webpack`等源码简单学习
+- `do-code`项目里有`axios`，`promise`，设计模式，`vue`、`webpack`等源码简单学习
