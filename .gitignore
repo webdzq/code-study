@@ -1,5 +1,4 @@
-/mweb/
-/dist/
+
 /node_modules
 npm-debug.log
 .DS_Store  
@@ -7,7 +6,7 @@ npm-debug.log
 *.DS_Store
 .vscode
 *.log
-/src/assets/mock/*
+
 # Editor directories and files
 .idea
 /util/dist/
@@ -16,8 +15,3 @@ npm-debug.log
 *.njsproj
 *.sln
 
-static/**/theme-config.json
-static/theme/**/*.css
-static/**/*.???????.*
-
-static/**/__**
