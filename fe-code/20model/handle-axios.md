@@ -13,7 +13,7 @@
 function Axios(config){
     //初始化
     this.defaults = config;//为了创建 default 默认属性
-    this.intercepters = {// 拦截器
+    this.interceptors = {// 拦截器
         request: {},
         response: {}
     }

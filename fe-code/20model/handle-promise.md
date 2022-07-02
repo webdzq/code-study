@@ -669,7 +669,7 @@ Promise.all = function (promises) {
         for (let i = 0; i < len; i++) {
             promises[i].then(v => {
                 count++
-                arr[i] = i
+                arr[i] = v
                 // 等待全部返回，统一修改状态
                 if (count === len) {
                     resolve(arr)
@@ -691,9 +691,10 @@ let result = Promise.all([p1, p2, p3])
 // 16.添加Promise.race函数
 Promise.race = function (promises) {
     return new Promise((resolve, reject) => {
+       
         for (let i = 0; i < len; i++) {
             promises[i].then(v => {
-                resolve(arr)
+                resolve(v)
             }, r => {
                 reject(r)
             })
