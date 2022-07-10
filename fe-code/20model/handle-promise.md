@@ -906,7 +906,7 @@ class Promise {
     catch(onRejected) {
         this.then(undefined, onRejected)
     }
-    static resolve() {
+    static resolve(value) {
         return new Promise((resolve, reject) => {
             if (value instanceof Promise) {
                 // 如果是promise，就调用then执行
@@ -917,11 +917,11 @@ class Promise {
                 })
             } else {
                 //把结果状态变成【成功】
-                resolve(result)
+                resolve(value)
             }
         })
     }
-    static reject() {
+    static reject(reason) {
         return new Promise((resolve, reject) => {
             reject(reason)
         })
@@ -934,7 +934,7 @@ class Promise {
             for (let i = 0; i < len; i++) {
                 promises[i].then(v => {
                     count++
-                    arr[i] = i
+                    arr[i] = v
                     if (count === len) {
                         resolve(arr)
                     }
@@ -946,6 +946,7 @@ class Promise {
     }
     static race(promises) {
         return new Promise((resolve, reject) => {
+            let len = promises.length
             for (let i = 0; i < len; i++) {
                 promises[i].then(v => {
                     resolve(arr)
